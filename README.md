@@ -12,6 +12,7 @@ We provide an introductory Colab notebook on a toy 2D example to help users unde
 
 ## Citation
 If you use the code or our work is related to yours, please cite us:
+```
 @InProceedings{Liu_2023_CVPR,
     author    = {Liu, Xingchao and Wu, Lemeng and Zhang, Shujian and Gong, Chengyue and Ping, Wei and Liu, Qiang},
     title     = {FlowGrad: Controlling the Output of Generative ODEs With Gradients},
@@ -20,3 +21,4 @@ If you use the code or our work is related to yours, please cite us:
     year      = {2023},
     pages     = {24335-24344}
 }
+```
