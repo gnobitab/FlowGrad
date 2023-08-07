@@ -4,6 +4,8 @@ This is the official implementation of the CVPR2023 paper
 ## [FlowGrad: Controlling the Output of Generative ODEs With Gradients](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_FlowGrad_Controlling_the_Output_of_Generative_ODEs_With_Gradients_CVPR_2023_paper.html) 
 by *Xingchao Liu, Lemeng Wu, Shujian Zhang, Chengyue Gong, Wei Ping, Qiang Liu* from NVIDIA and UT Austin
 
+![](fig1.png)
+
 ## Interactive Colab notebook
 
 We provide an introductory Colab notebook on a toy 2D example to help users understand the method. Play [here](https://colab.research.google.com/drive/1rx3-WbC6yyx1jnES3xVQ0b463xfihFJU?usp=sharing).
