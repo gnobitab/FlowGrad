@@ -28,7 +28,6 @@ The following packages are required,
 
 ```
 torch, numpy, lpips, clip, ml_collections, absl-py 
-
 ```
 
 ### Run
