@@ -4,7 +4,7 @@ This is the official implementation of the CVPR2023 paper
 ## [FlowGrad: Controlling the Output of Generative ODEs With Gradients](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_FlowGrad_Controlling_the_Output_of_Generative_ODEs_With_Gradients_CVPR_2023_paper.html) 
 by *Xingchao Liu, Lemeng Wu, Shujian Zhang, Chengyue Gong, Wei Ping, Qiang Liu* from NVIDIA and UT Austin
 
-![](fig1.png)
+![](github_misc/fig1.png)
 
 ## Interactive Colab notebook
 
@@ -37,7 +37,13 @@ In our example, we use the demo image ```demo/celeba.jpg``` and text prompt ```A
 python -u main.py --config RectifiedFlow/configs/celeba_hq_pytorch_rf_gaussian.py --text_prompt 'A photo of a smiling face.' --alpha 0.7 --model_path ./checkpoint_10.pth --image_path demo/celeba.jpg
 ```
 
-The resulting images will be saved in ```output/figs/```.
+The  images will be saved in ```output/figs/```. The folder includes,
+
+* ```original.png```: the original image.
+
+* ```reconstruct.png```: the image generated from the encoded latent of the original image by running the ODE in the reverse direction. There is subtle difference from the orignal image due to the discretization error.
+
+* ```optimized.png```: the image generated after editing with FlowGrad.
 
 
 ## Citation
