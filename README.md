@@ -45,6 +45,7 @@ The  images will be saved in ```output/figs/```. The folder includes,
 
 * ```optimized.png```: the image generated after editing with FlowGrad.
 
+![](github_misc/example.png)
 
 ## Citation
 If you use the code or our work is related to yours, please cite us:
